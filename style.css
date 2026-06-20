@@ -1,0 +1,29 @@
+#typing{
+    color: red;
+}
+#bg_color{
+    
+    background: rgb(255 196 69 / 20%);
+}
+#hero{
+    padding-top: 100px;
+}
+body{
+    padding-top: 70px;
+}
+
+.hero{
+    background: linear-gradient(
+        135deg,
+        #212529,
+        #343a40
+    );
+}
+
+.hero img{
+    transition: transform 0.4s ease;
+}
+
+.hero img:hover{
+    transform: scale(1.05);
+}
